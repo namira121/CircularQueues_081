@@ -86,6 +86,7 @@ public:
 				cout << queue_array[FRONT_position] << "   ";
 				FRONT_position++;
 			}
+
 			FRONT_position = 0;
 
 			//iterasi dari awal array hingga REAR 
@@ -97,3 +98,15 @@ public:
 		}
 	}
 };
+
+int main() {
+	Queues q;
+	char ch;
+
+	while (true) {
+		try {
+			cout << "Menu" << endl;
+		}
+	}
+}
+
