@@ -41,7 +41,8 @@ public:
 	void remove() {
 		//cek apakah antrian ksoong
 		if (FRONT == -1) {
-
+			cout << "Queue underflow\n";
+			return;
 		}
 	}
 };
